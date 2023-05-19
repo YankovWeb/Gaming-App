@@ -24,4 +24,4 @@ app.use(routes);
 mongoose.set("strictQuery", false);
 mongoose.connect("mongodb://127.0.0.1:27017/exam");
 
-app.listen(4000, () => console.log("server is runnig on port 3000...."));
+app.listen(4000, () => console.log("server is runnig on port 4000...."));
